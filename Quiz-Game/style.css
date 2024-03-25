@@ -1,0 +1,7 @@
+.hidden {
+    display: none;
+}
+
+.Chosen {
+    outline: 2px solid lime;
+}
