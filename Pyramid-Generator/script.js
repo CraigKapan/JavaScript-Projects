@@ -1,3 +1,9 @@
-let character = 'Hello';
+let character = "Hello";
 let count = 8;
-console.log(count + 1);
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp");
+
+let popped = rows.pop();
+console.log(popped);
+
+console.log(rows);
