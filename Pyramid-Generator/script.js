@@ -1,9 +1,11 @@
-let character = "Hello";
-let count = 8;
-let rows = ["Naomi", "Quincy", "CamperChan"];
-rows.push("freeCodeCamp");
+const character = "#";
+const count = 8;
+const rows = [];
 
-let popped = rows.pop();
-console.log(popped);
+for (let i = 0; i < count; i++) {
+    rows.push(i); 
+}
 
-console.log(rows);
+let result = "";
+
+console.log(result);
